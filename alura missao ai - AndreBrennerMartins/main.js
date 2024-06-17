@@ -85,7 +85,7 @@ function showQuest(){
     }
 
     questnow= quest[now];
-    boxQuest.textContent= questnow.txt;
+    boxQuest.textContent= questnow.given;
     boxAnsw.textContent= "";
     showAnsw();
 }
